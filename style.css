@@ -1,0 +1,40 @@
+html, body {
+	height: 100%;
+}
+body{
+	padding:10px;
+   padding-bottom:60px
+}
+header h1{
+	background-color: teal;
+	font-size: 20px;
+	color: white;
+	padding: 12px 24px;
+	/*the 12 is for up and down the 24 is for left and right*/
+	display: inline-block;
+}
+header nav{
+	display: inline-block;
+}
+
+.content-wrap {
+	min-height: 100%;
+	width: 960px
+	margin: 0 auto;
+	height: 100%;
+	background: gray;
+}
+
+main{
+	height: 400px;
+	padding-bottom: 90px;
+}
+footer {
+	position: fixed;
+	bottom: 0px;
+	background-color: black;
+	padding: 10px;
+	color: white;
+	height: 80px;
+	width: 100%;	
+}

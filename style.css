@@ -1,40 +1,83 @@
-html, body {
-	height: 100%;
-}
-body{
-	padding:10px;
-   padding-bottom:60px
-}
-header h1{
-	background-color: teal;
-	font-size: 20px;
-	color: white;
-	padding: 12px 24px;
-	/*the 12 is for up and down the 24 is for left and right*/
-	display: inline-block;
-}
-header nav{
-	display: inline-block;
+/**
+ * Float Layout Activity
+ **/
+
+* {
+	box-sizing: border-box;
+	text-align: center;
 }
 
-.content-wrap {
-	min-height: 100%;
-	width: 960px
-	margin: 0 auto;
-	height: 100%;
-	background: gray;
+body {
 }
 
-main{
-	height: 400px;
-	padding-bottom: 90px;
-}
-footer {
-	position: fixed;
-	bottom: 0px;
-	background-color: black;
+header {
 	padding: 10px;
+	color: #333;
+	background: #ccc;
+	background-color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+nav{
+	padding: 10px;
+	color: #333
+	background: #ccc;
+	background-color: white;
+	margin-top: 10px;
+  	margin-bottom: 10px;
+}
+
+section {
+	
+	text-align: center;
+	float: left;
+	width: 49%;
+	background-color: white;
+	padding-top: 20px;
+	color: gray;
+	margin-bottom: 10px;
+}
+
+article{
+	background-color: gray;
 	color: white;
-	height: 80px;
-	width: 100%;	
+	margin: 10px;
+	height: 30%;
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+article div {
+	background-color: white;
+	color: gray;
+	padding: 10px 10px 10px 10px;
+	margin: 10px;
+}
+
+p{
+	background-color: white;
+	color: gray;
+	padding: 10px 10px 10px 10px;
+	margin: 10px;
+}
+
+aside {
+	width: 49%;
+	float: right;
+	background-color: white;
+	color: gray;
+	text-align: center;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-bottom: 155px;
+}
+
+footer {
+	text-align: center;
+	background-color: white;
+	color: gray;
+	padding-bottom: 20px;
+	padding-top: 20px; 
+	width: 100%;
+	display: inline-block;
 }
